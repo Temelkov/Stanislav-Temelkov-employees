@@ -6,7 +6,7 @@ namespace ServiceLayer.Services
 {
     public class EmployeeProjectService : IEmployeeProjectService
     {
-        private readonly string[] dateFormats = { "yyyy-MM-dd", "MM/dd/yyyy", "dd/MM/yyyy" };
+        private readonly string[] dateFormats = { "yyyy-MM-dd", "MM/dd/yyyy", "dd/MM/yyyy", "M/d/yyyy", "d/M/yyyy", "yyyy/MM/dd", "dd.MM.yyyy" };
 
         public async Task<List<EmployeePairResult>> GetLongestWorkingPairsAsync(List<EmployeeProject> projects)
         {
@@ -85,8 +85,8 @@ namespace ServiceLayer.Services
                         {
                             EmpID = int.Parse(values[0]),
                             ProjectID = int.Parse(values[1]),
-                            DateFrom = DateTime.ParseExact(values[2], dateFormats, CultureInfo.InvariantCulture, DateTimeStyles.None),
-                            DateTo = string.IsNullOrEmpty(values[3]) ? (DateTime?)null : DateTime.ParseExact(values[3], dateFormats, CultureInfo.InvariantCulture, DateTimeStyles.None)
+                            DateFrom = ParseDate(values[2]),
+                            DateTo = string.IsNullOrEmpty(values[3]) ? (DateTime?)null : ParseDate(values[3])
                         };
 
                         projects.Add(project);
@@ -99,6 +99,16 @@ namespace ServiceLayer.Services
             }
 
             return projects;
+        }
+
+        private DateTime ParseDate(string date)
+        {
+            DateTime parsedDate;
+            if (DateTime.TryParseExact(date, dateFormats, CultureInfo.InvariantCulture, DateTimeStyles.None, out parsedDate))
+            {
+                return parsedDate;
+            }
+            throw new FormatException($"Invalid date format: {date}");
         }
     }
 }
