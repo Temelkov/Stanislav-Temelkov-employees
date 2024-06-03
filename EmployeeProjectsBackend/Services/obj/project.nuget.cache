@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kvKfhcAY31TC4l/kO1aQt1KRF/z1kq8YPfJlYMteHwnjwpkRUjFY75unA2LXFPdILO2I1wBGn0nyh8UBRb83EA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\stanislav.temelkov\\source\\repos\\CSV-Projects\\EmployeeProjectsBackend\\Services\\ServiceLayer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\stanislav.temelkov\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

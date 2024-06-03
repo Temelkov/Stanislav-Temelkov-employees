@@ -1,0 +1,5 @@
+C:\Users\stanislav.temelkov\source\repos\CSV-Projects\Services\obj\Debug\net6.0\ServiceLayer.csproj.AssemblyReference.cache
+C:\Users\stanislav.temelkov\source\repos\CSV-Projects\Services\obj\Debug\net6.0\ServiceLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stanislav.temelkov\source\repos\CSV-Projects\Services\obj\Debug\net6.0\ServiceLayer.AssemblyInfoInputs.cache
+C:\Users\stanislav.temelkov\source\repos\CSV-Projects\Services\obj\Debug\net6.0\ServiceLayer.AssemblyInfo.cs
+C:\Users\stanislav.temelkov\source\repos\CSV-Projects\Services\obj\Debug\net6.0\ServiceLayer.csproj.CoreCompileInputs.cache

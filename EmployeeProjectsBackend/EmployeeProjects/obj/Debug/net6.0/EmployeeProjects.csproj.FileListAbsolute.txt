@@ -1,0 +1,6 @@
+C:\Users\stanislav.temelkov\source\repos\CSV-Projects\EmployeeProjects\obj\Debug\net6.0\EmployeeProjects.csproj.AssemblyReference.cache
+C:\Users\stanislav.temelkov\source\repos\CSV-Projects\EmployeeProjects\obj\Debug\net6.0\EmployeeProjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stanislav.temelkov\source\repos\CSV-Projects\EmployeeProjects\obj\Debug\net6.0\EmployeeProjects.AssemblyInfoInputs.cache
+C:\Users\stanislav.temelkov\source\repos\CSV-Projects\EmployeeProjects\obj\Debug\net6.0\EmployeeProjects.AssemblyInfo.cs
+C:\Users\stanislav.temelkov\source\repos\CSV-Projects\EmployeeProjects\obj\Debug\net6.0\EmployeeProjects.csproj.CoreCompileInputs.cache
+C:\Users\stanislav.temelkov\source\repos\CSV-Projects\EmployeeProjects\obj\Debug\net6.0\EmployeeProjects.MvcApplicationPartsAssemblyInfo.cache
